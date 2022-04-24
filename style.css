@@ -1,0 +1,83 @@
+/* CSS comment - Syntax Selector {property:  value;} */
+/* (*) symbol specify the universal selector meaning, we can select all HTML elements */
+
+*{
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+h1,h3,h4{
+  font-family: "Montserrat", sans-serif;
+}
+h4{
+  color: #4070f4;
+}
+img{
+  height: 270px;
+  width: 260px;
+}
+.jumbotron{
+  background-color: transparent;
+}
+
+#landing{
+  /* vh - viewport height - a determined or measured percentage of the 
+  height of the device you are viewing your webpage in. */
+  height: 80vh;
+  /* flexbox - display:  flex - will allow us to arrange or layout the elememts
+  inside our landing section vertically and horizontally. */
+  /* By default, display:  flex, arrange elements inside the parent element in a row. */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#gallery{
+  height: 75vh;
+  /* center the content of gallery horizontally and vertically */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+.tools{
+  /* border - line around the element */
+  border: 5px solid #f2f2f2;
+  /* margin - space outside the element */
+  margin: 20px;
+  /* padding - space inside the element */
+  padding: 25px;
+  height: 200px;
+  width: 75%;
+}
+
+/* Footer CSS */
+footer{
+  background: #4070f4;
+  padding: 15px 0;
+  text-align: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  border-radius: 9px;
+}
+footer .text span{
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+}
+footer .text span a{
+  font-weight: 500;
+  color: #FFF;
+}
+footer .text span a:hover{
+  text-decoration: underline;
+}
